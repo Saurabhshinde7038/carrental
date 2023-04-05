@@ -1,0 +1,300 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(36, 33, 33); */
+    background-image: linear-gradient(to left,rgb(205, 235, 247),rgb(215, 205, 207),gray);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cards{
+    width: 100%;
+    height: auto;
+color: burlywood;
+  
+  }
+  .card{
+    margin: 6%;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.1);
+    border-color: #fff;
+    width: 21.25%;
+    border-radius: 12px;
+    box-shadow: 0px 13px 10px -7px black;
+    float: left;
+    background-color: aquamarine;
+  }
+  
+  .card:hover{
+    box-shadow: 0px 30px 18px -8px black;
+    transform: scale(1.05, 1.05);
+  }
+  
+  .card_img{
+    width: 100%;
+    height: 30vh;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: #fff;
+  }
+  
+  .card_inf{
+    background-color: #fff;
+    height: 130px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .card_category{
+    background-color: #fff;
+    color:black;
+    font-size: 20px;
+  }
+  
+  .card_title{
+    background-color: #fff;
+    padding: 10px;
+    color:rebeccapurple;
+    font-size: 20px;
+  }
+  
+  .button1{
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    
+  }
+  .nav{
+    background-color: black;
+    width: 100%;
+    /* position: sticky; */
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+  }
+  .Netflix{
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(255, 38, 0);
+    background-color: black;
+    font-family: lucida calligraphy;
+  }
+  .Netflix_hide{
+    display: none;
+  }
+  .button2{
+    float: right;
+    margin-top: 15px;
+    background-color: rgb(201, 30, 0);
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+
+  }
+  .button2 a{
+    padding: 7px 15px;
+    text-decoration: none;
+    background-color: black;
+    border: 1px solid gray;
+    color: white;
+    margin-right: 50px;
+    border-radius: 5px;
+  }
+  .button2 a:hover{
+    background-color: rgb(58, 52, 52);
+  }
+  .button3{
+    float: right;
+    margin-top: 15px;
+    background-color: rgb(201, 30, 0);
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  .button3 a{
+    padding: 7px 15px;
+    text-decoration: none;
+    background-color: black;
+    border: 1px solid gray;
+    color: white;
+    margin-right: 50px;
+    border-radius: 5px;
+  }
+  .button3 a:hover{
+    background-color: rgb(255, 38, 0);
+  }
+  .nav p{
+    float: right;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    margin-right: 5px;
+    font-size: 15px;
+  }
+  .heading_div{
+    margin-top: 100px;
+    margin-left: 80px;
+    color: white;
+  }
+  .heading_div h1{
+    font-size: 50px;
+    font-weight:bolder;
+    font-style: normal;
+  }
+  .heading_div p{
+    font-size: 21px;
+    margin-top: 10px;
+    margin-right: 700px;
+  }
+  .footer_div{
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .footer_div h1{
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  .footer_div p{
+    margin: 15px 300px 40px 300px;
+    font-size: 25px;
+  }
+  .footer_div a{
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color:  rgb(255, 38, 0);
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  .footer_div1{
+    margin: 80px;
+   
+  }
+  .footer_div1 a{
+   color: black;
+   
+  }
+  .footer_flex{
+    display: flex;
+    gap: 130px;
+
+  }
+  .footer_flex div a{
+    display: block;
+    text-decoration: none;
+color: darkolivegreen;
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  .footer_flex div a:hover{
+    text-decoration: underline;
+  }
+  .ancher a{
+    text-decoration: none;
+    color: gray;
+    font-size: 19px;
+  }
+  .ancher a:hover{
+    text-decoration: underline;
+  }
+  
+  .input{
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border-radius: 20px;
+    padding: 3px 10px;
+    border: none;
+  }
+  
+  .input:focus-within{
+    border: 3px solid red;
+  }
+  .login_page{
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 10% 30%;
+    border-radius: 30px;
+    text-align: center;
+  }
+  .login_page input{
+  border-radius: 20px;
+  padding: 4px 10px;
+  border: none;
+  }
+  .login_page button{
+    padding: 8px 20px;
+    background-color: skyblue;
+    border: none;
+    border-radius: 20px;
+  }
+  .xyz{
+ 
+   position: absolute;
+   top: 35px;
+   right: 50px;
+    text-decoration: none;
+    color:red;
+
+  }
+  .create_account_page{
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 10% 30%;
+    border-radius: 30px;
+    text-align: center;
+  }
+  .create_account_page input{
+    border-radius: 20px;
+    padding: 4px 10px;
+    border: none;
+    }
+    .create_account_page_button{
+      padding: 8px 20px;
+      background-color: skyblue;
+      border: none;
+      border-radius: 20px;
+    }
+    .body{
+      background-color: antiquewhite;
+      padding: 20px;
+      margin: 5% 30%;
+      border-radius: 30px;
+      text-align: center;
+    }
+    .body input{
+    border-radius: 20px;
+    padding: 4px 10px;
+    border: none;
+    }
+    .body button{
+      padding: 8px 20px;
+      background-color: skyblue;
+      border: none;
+      border-radius: 20px;
+    }
+    .pay{
+      background-color: antiquewhite;
+      padding: 20px;
+      margin: 10% 30%;
+      border-radius: 30px;
+      text-align: center;
+    }
+    .carinfo{
+      background-color: antiquewhite;
+      padding: 20px;
+      margin: 10% 30%;
+      border-radius: 30px;
+      text-align: center;
+    }
